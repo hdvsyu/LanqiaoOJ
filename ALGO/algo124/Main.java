@@ -1,4 +1,4 @@
-package test;
+package algo124;
 
 import java.util.Scanner;
 
