@@ -1,4 +1,4 @@
-package test;
+package algo86;
 
 import java.util.Scanner;
 
