@@ -1,4 +1,4 @@
-package test;
+package algo10;
 
 import java.util.Scanner;
 import java.util.TreeSet;
