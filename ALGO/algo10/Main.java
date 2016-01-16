@@ -35,6 +35,7 @@ public class Main {
 	
 	public static void printDivide(TreeSet<Integer> a, TreeSet<Integer> b) {
 		
+		@SuppressWarnings("unchecked")
 		TreeSet<Integer> tempA = (TreeSet<Integer>) a.clone();
 		a.removeAll(b);
 		tempA.removeAll(a);
