@@ -3,3 +3,9 @@
 .project
 
 .classpath
+
+*.xml
+
+.idea/.name
+
+*.iml
