@@ -8,14 +8,13 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		int t = in.nextInt();
 		int m = in.nextInt();
-		int[] dp = new int[t+1];
-		for (int i = 0; i < m; i++) {
+		int[] dp = new int[t + 1];
+
+		for (int i = 1; i <= m; i++) {
 			int time = in.nextInt();
 			int value = in.nextInt();
-			for (int j = 1; j <= t; j++) {
-				if (j >= time) {
-					dp[j] = Integer.max(dp[j], dp[j - time] + value);
-				}
+			for (int j = t; j >= time; j--) {
+				dp[j] = Integer.max(dp[j], dp[j - time] + value);
 			}
 		}
 		in.close();
