@@ -1,13 +1,8 @@
 /bin/
-
 .project
-
 .classpath
-
 *.xml
-
 .idea/.name
-
 *.iml
-
 .DS_Store
+.metadata
